@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, Roboto, Oxygen, Fira Sans, Helvetica Neue, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    color: #325A82;
+    background: #325A82;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.45;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.65rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid #eaecef;
+}
+
+h3 {
+    font-size: 1.35rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.card {
+    overflow: hidden;
+    margin: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+thead tr:first-child th {
+    background-color: #325A82;
+    color: #fff;
+    border: 1px solid #c0c0c0;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+}
+
+.table-settings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.table-buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.table-download-button {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.table-button {
+    margin: 0px 0px 0px 8px;
+}
+
+.table-button-sort {
+    padding: 0px 0px;
+}
+
+.table-sort {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.q-pa-md {
+    padding: 8px 16px;
+}
+
+.table-filter {
+    margin: 0px 16px;
+}
+
+.select-list {
+    width: 300px;
+}
